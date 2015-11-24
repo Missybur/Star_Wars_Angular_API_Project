@@ -1,6 +1,6 @@
 "use strict";
 
-angular.module("myapp", ["ui.router"]);
+// angular.module("myapp", ["ui.router"]);
 
     var myapp = angular.module('myapp', ["ui.router"])
     myapp.controller("ResidentCtrl", function($scope, $http, $stateParams) {

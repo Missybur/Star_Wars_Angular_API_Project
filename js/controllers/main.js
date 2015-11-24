@@ -1,5 +1,4 @@
-   "use strict";
-
+"use strict";
 
 var myapp = angular.module('myapp', ["ui.router", "services"])
 
