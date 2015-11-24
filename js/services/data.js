@@ -1,6 +1,6 @@
 "use strict";
 
-var app = angular.module('services', [])
+var app = angular.module('services', ["ui.router"])
 
 app.service('getAndStoreCharacter', ['$http', function($http){
   var characterNames = [];
