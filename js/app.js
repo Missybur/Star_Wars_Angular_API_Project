@@ -1,7 +1,7 @@
 "use strict";
 
-// angular.module("myapp", ["ui.router"]);
 
+    angular.module("myapp", ["ui.router"]);
     var myapp = angular.module('myapp', ["ui.router"])
     myapp.controller("ResidentCtrl", function($scope, $http, $stateParams) {
         $http.get("http://swapi.co/api/people/" + $stateParams.id + "/?format=json").then(resp => {
