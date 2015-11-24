@@ -1,2 +1,2 @@
-document.write("It works");
-document.write(require("./app.js"));
+// document.write("It works");
+// document.write(require("./app.js"));
