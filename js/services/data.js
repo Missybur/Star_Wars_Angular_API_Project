@@ -11,5 +11,7 @@ app.service('getAndStoreCharacter', ['$http', function($http){
       console.log(characterNames)
     })
   };
+
   this.characterNames = characterNames;
+
 }]);
